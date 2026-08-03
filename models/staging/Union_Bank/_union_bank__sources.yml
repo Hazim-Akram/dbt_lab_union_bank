@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: union_bank
+    database: Union_Bank
+    schema: dbo
+    tables:
+      - name: Customer
+      - name: Account
+      - name: transactions_ATM_Account
+      - name: Branch
+      - name: Loan
